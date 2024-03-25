@@ -12,7 +12,8 @@ import { search } from '../redux/productSlice';
 function Header() {
 
     const cartArray = useSelector(state => state.cartSlice)
-    //console.log(cartArray);
+
+
     const wishlistArray = useSelector(state => state.wishlistSlice)
 
     const dispatch=useDispatch()

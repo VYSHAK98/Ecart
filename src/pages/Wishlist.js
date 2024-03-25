@@ -39,7 +39,7 @@ function Wishlist() {
                       <td className='text-center'>
                         <img style={{ width: '50%', height: '80px' }} src={i?.image} alt="" />
                       </td>
-                      <td>{i?.price} $</td>
+                      <td>${i?.price}</td>
                       <td className='text-center'>
                         <div onClick={() => dispatch(removeWishlist(i?.id))} className='btn'>
                           <i className="fa-solid fa-trash-can fa-2xl text-danger p-2"></i>
